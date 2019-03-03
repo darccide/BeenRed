@@ -1,0 +1,37 @@
+{
+  "name": "beenred",
+  "version": "1.0.0",
+  "description": "A Reddit like application for users to discuss and share content",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "server": "nodemon src/server.js",
+    "test": "SET NODE_ENV=test && jasmine"
+  },
+  "author": "Steven Thomson",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "jasmine": "^3.3.1",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.1",
+    "heroku-dotenv": "^0.4.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.8.1",
+    "pg-hstore": "^2.3.2",
+    "pug": "^2.0.3",
+    "sequelize": "^4.43.0",
+    "sequelize-cli": "^5.4.0"
+  }
+}
