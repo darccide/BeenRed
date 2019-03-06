@@ -13,7 +13,7 @@ BeenRed was a project that was part of my Bloc Mentorship Program curriculum. We
 
 ## Setup
 Running Locally
-Make sure you have Node.js and PostgreSQL installed.
+Make sure you have [Node.js](https://nodejs.org/en/) and [PostgreSQL](https://www.postgresql.org/) installed.
 
 Download and install dependencies.
 ```
