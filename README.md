@@ -28,7 +28,7 @@ Check that src/db/config/config.json is setup like below (You may need to change
 	"development": {
 		"username": "postgres",
 		"password": null,
-		"database": "blocipedia-dev",
+		"database": "beenred-dev",
 		"host": "127.0.0.1",
 		"dialect": "postgres",
 		"logging": false,
